@@ -1,0 +1,32 @@
+.header {
+  padding: 40px 0;
+  background-color: $white;
+}
+
+.header__logo {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+  color: #909090;
+}
+
+@media (min-width: $tablet-width) {
+  .header {
+    padding: 48px 0;
+  }
+
+  .header__logo {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .header {
+    padding: 80px 0;
+  }
+
+  .header__logo {
+    font-size: 32px;
+  }
+}

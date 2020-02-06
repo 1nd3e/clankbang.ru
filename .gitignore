@@ -1,0 +1,8 @@
+.DS_Store
+.vscode
+*.log
+.publish/
+node_modules/
+build/
+npm-debug.*
+Thumbs.db
