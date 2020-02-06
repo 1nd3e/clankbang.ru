@@ -18,6 +18,7 @@ gulp.task("del", function () {
 
 gulp.task("copy", function () {
   return gulp.src([
+    "source/assets/docs/**/*.pdf",
     "source/assets/fonts/**/*.{woff,woff2}",
     "source/assets/img/**",
     "source/**/*.html",

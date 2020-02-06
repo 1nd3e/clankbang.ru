@@ -30,8 +30,8 @@
   }
 }
 
-.projects__item--name-numless {
-  background-color: #ffbba6;
+.projects__item--name-newton-trails {
+  background-color: #ffe3b3;
 }
 
 .projects__item--name-pongmates {
@@ -54,11 +54,6 @@
   display: inline-flex;
   padding-bottom: 3px;
   font-size: 20px;
-  opacity: 0;
-}
-
-.projects__item:hover .projects__item-btn {
-  opacity: 1;
 }
 
 .projects__item-icon {
@@ -156,6 +151,11 @@
     top: 40px;
     right: 40px;
     font-size: 32px;
+    opacity: 0;
+  }
+  
+  .projects__item:hover .projects__item-btn {
+    opacity: 1;
   }
 
   .projects__item-icon {
