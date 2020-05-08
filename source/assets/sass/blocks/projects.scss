@@ -30,6 +30,10 @@
   }
 }
 
+.projects__item--name-bubbless {
+  background-color: #bbdefb;
+}
+
 .projects__item--name-newton-trails {
   background-color: #ffe3b3;
 }
@@ -75,7 +79,7 @@
   line-height: 1;
 }
 
-.projects__item--type-dot 
+.projects__item--type-dot
 .projects__item-title {
   font-weight: 400;
 }
@@ -113,7 +117,7 @@
     }
 
     &:not(:last-child) {
-      margin-bottom: 0;
+      margin-bottom: 40px;
     }
   }
 
@@ -130,7 +134,7 @@
   .projects__item-title {
     font-size: 24px;
   }
-  
+
   .projects__item-desc {
     font-size: 24px;
   }
@@ -153,7 +157,7 @@
     font-size: 32px;
     opacity: 0;
   }
-  
+
   .projects__item:hover .projects__item-btn {
     opacity: 1;
   }
@@ -167,7 +171,7 @@
   .projects__item-title {
     font-size: 32px;
   }
-  
+
   .projects__item-desc {
     font-size: 32px;
   }
